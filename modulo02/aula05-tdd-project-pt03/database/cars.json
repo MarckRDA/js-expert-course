@@ -1,0 +1,23 @@
+[
+    {
+        "id": "503c409b-88bb-4680-aa32-0f5eb4b8ba24",
+        "name": "Fortwo",
+        "releaseYear": 2021,
+        "available": true,
+        "gasAvailable": true
+    },
+    {
+        "id": "c1f2b1f5-1cc1-42a7-9a29-af986799832f",
+        "name": "Charger",
+        "releaseYear": 2021,
+        "available": true,
+        "gasAvailable": true
+    },
+    {
+        "id": "9e779b08-0782-4147-85dc-2eaa3bf77346",
+        "name": "Spyder",
+        "releaseYear": 2021,
+        "available": true,
+        "gasAvailable": true
+    }
+]
