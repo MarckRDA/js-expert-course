@@ -1,0 +1,28 @@
+regex.101.com
+^\d{3}.\d{3}.\d{3}-\d{2}$
+123.123.123-14
+321.123.345-20
+200.300.500.19
+
+replace [.-] - vazio
+
+^(\w+),\s(\w+)$ =>  {firstName:"$2",lastName:"$1"}
+Wendel, Erick => {firstName:"Erick",lastName:"Wendel"}
+Marcos, Alves => {firstName:"Alves",lastName:"Marcos"}
+Johnson, Jose =>  {firstName:"Jose",lastName:"Johnson"}
+
+
+replace \[(.*?)\]\(([http|https].*?)\) => <a href="$2">$1</a>
+O [Marcos Alves](hhps://marcosalves.com) faz palestras e você devia segui-lo lá no [Twitter](https://twitter.com/marckrda) ou até no [Instagram](http://instagram.com/marck_marvellous)
+
+Ah e pode pesquisar no [Google](https://google.com) ou 
+[Yahoo](https://yahoo.com)
+
+vai que vai!
+==========================
+O <a href="hhps://marcosalves.com">Marcos Alves</a> faz palestras e você devia segui-lo lá no <a href="https://twitter.com/marckrda">Twitter</a> ou até no <a href="http://instagram.com/marck_marvellous">Instagram</a>
+
+Ah e pode pesquisar no <a href="https://google.com">Google</a> ou 
+<a href="https://yahoo.com">Yahoo</a>
+
+vai que vai!
