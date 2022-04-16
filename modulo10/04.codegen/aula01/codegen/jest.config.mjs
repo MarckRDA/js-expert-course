@@ -8,11 +8,6 @@ export default {
     "lcov",
     "clover"
   ],
-  //força um coverage para todos os arquivos
-  collectCoverageFrom:[
-    "src/**/*.js",
-    "!src/index.js"
-  ],
    coverageThreshold: {
      global: {
        branch: 100,
@@ -25,6 +20,5 @@ export default {
   testEnvironment: "node",
   watchPathIgnorePatterns: [
     "node_modules"
-  ],
-  transformIgnorePatterns: ["node_modules"]
+  ]
 };
